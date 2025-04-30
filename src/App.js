@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {useState} from 'react'
 import {Route, Switch} from 'react-router-dom'
 
@@ -63,5 +64,12 @@ const App = () => {
     </SearchMoviesContext.Provider>
   )
 }
+=======
+import './App.css'
+import Home from './components/Home'
+
+// write your code here
+const App = () => <Home />
+>>>>>>> 8c68a32d9d45b3c3a03e03774ca8dc8bef6c8850
 
 export default App

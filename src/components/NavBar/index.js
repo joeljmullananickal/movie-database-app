@@ -55,17 +55,17 @@ const NavBar = props => {
         <ul className="order-1 d-flex align-items-center p-0 mb-0 ms-3 nav-items-list">
           <li className="nav-item">
             <Link className="nav-link" to="/">
-              Popular
+              <h1>Popular</h1>
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/top-rated">
-              Top Rated
+              <h1>Top Rated</h1>
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/upcoming">
-              Upcoming
+              <h1>Upcoming</h1>
             </Link>
           </li>
         </ul>
